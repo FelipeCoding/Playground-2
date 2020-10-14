@@ -8,19 +8,40 @@ body{
 	font-size: 50px;
 	background-color: #1B2021;
 	color: white;
-	max-width: 700px;
+	text-align: center;
 	padding: 10px;
 	border: solid 10px #EA638C;
 	border-radius: 10px;
-	margin: 30px;
+	margin: 30px 30px 10px 30px;
 	box-sizing: border-box;
 }
 
 .otherone {
 	font-family: 'Roboto Slab', serif;
 	color: #89023E;
+	text-align: center;
+	margin: 0 30px 20px 30px;
 }
 
 p {
 	font-family: helvetica, sans-serif;
+}
+
+.parent-box {
+	background-color: #30343F;
+	color: white;
+	font-family: helvetica, sans-serif;
+	margin: 30px;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.box-box {
+	background-color: white;
+	color: black;
+	margin: 30px;
+	border: solid 10px #EA638C;
+	border-radius: 5px;
+	align-content: center;
 }
